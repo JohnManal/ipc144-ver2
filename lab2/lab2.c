@@ -43,7 +43,6 @@ void printResults(int lengthInInches, int lengthInFeet, int lengthInYards, doubl
 
 int readLengthInInches(void)
 {
-    printf("Imperial Length Measurement Converter\n");
     int inches;
     printf("Please enter the length measurement to the nearest inch: ");
     scanf("%d", &inches);
