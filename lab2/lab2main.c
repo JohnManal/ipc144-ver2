@@ -55,7 +55,5 @@ int main(void)
     printResults(totalInches, ff, fy, fm);
     // Students: Continue to write the remaining functions and test each of them
     // and then assemble the functions accordingly to create the intended program.
-    getchar();
-    getchar();
     return 0;
 }
