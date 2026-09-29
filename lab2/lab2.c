@@ -61,7 +61,7 @@ int numYards(int lengthInFeet)
 
 double inchesToMeters(int lengthInInches)
 {
-    return lengthInInches / 39.37;
+    return lengthInInches / 39.3700787;
 }
 
 void printResults(int lengthInInches, int lengthInFeet, int lengthInYards, double lengthInMeters)
