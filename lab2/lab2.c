@@ -66,8 +66,9 @@ double inchesToMeters(int lengthInInches)
 
 void printResults(int lengthInInches, int lengthInFeet, int lengthInYards, double lengthInMeters)
 {
+    printf("Total length: %d\n", lengthInInches);
     printf("Length rounded to number of feet: %d\n", lengthInFeet);
     printf("Length rounded to number of yards: %d\n", lengthInYards);
     printf("Total Length (imperial): %dyd %d' %d\"\n", lengthInInches / 36, (lengthInInches % 36) / 12, (lengthInInches % 36) % 12);
-    printf("Total length (metric): %.2f\n", lengthInMeters);
+    printf("Total length (metric): %.2f m\n", lengthInMeters);
 }
